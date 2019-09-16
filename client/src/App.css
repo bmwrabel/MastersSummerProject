@@ -1,0 +1,71 @@
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+
+.main.container {
+  padding-top: 60px;
+}
+
+.main.regPage {
+  padding-top: 100px;
+}
+
+.chatButton {
+  float: right;
+}
+
+.hero-section {
+  background-image: url("images/bg.gif") !important;
+  background-size: cover !important;
+  height: 55vh;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  min-height: 600px;
+  max-height: 1200px;
+  -webkit-box-align: center;
+}
+
+.hero-section .intro {
+  margin-top: 20% !important;
+}
+
+.hero-section .intro header {
+  color: aliceblue !important;
+}
+
+#footer {
+  background: black !important;
+}
+
+.ui.card,
+.ui.cards > .card {
+  width: 100% !important;
+}
+.chatInput {
+  width: 100% !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 0px !important;
+}
+
+.chatInput input {
+  border: 0px !important;
+}
